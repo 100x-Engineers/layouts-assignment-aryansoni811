@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -15,14 +15,16 @@
   </head>
 
   <body
-    class="font-inter bg-neutral-1000 text-neutral-50 min-h-screen w-screen"
+    class="min-h-screen w-screen bg-neutral-1000 font-inter text-neutral-50"
   >
-    <header class="flex gap-5 px-4 py-3 items-center justify-between">
-      <button>
-        <img src="../public/images/cancel.svg" alt="cancel" />
-      </button>
+    <header class="flex items-center justify-between gap-5 px-4 py-3">
+      <a href="../src/homefeed.html">
+        <button>
+          <img src="../public/images/cancel.svg" alt="cancel" />
+        </button>
+      </a>
       <div class="my-5">
-        <button class="px-6 py-2 blue-btn" disabled>Post</button>
+        <button class="blue-btn px-6 py-2" disabled>Post</button>
       </div>
     </header>
     <main>
@@ -34,7 +36,7 @@
           width="36"
         />
         <textarea
-          class="py-1 bg-transparent focus:outline-none caret-twitter-blue resize-none"
+          class="resize-none bg-transparent py-1 caret-twitter-blue focus:outline-none"
           name="tweet"
           id="tweet"
           cols="35"
