@@ -844,6 +844,10 @@ video {
   border-bottom-width: 1px;
 }
 
+.border-t {
+  border-top-width: 1px;
+}
+
 .border-solid {
   border-style: solid;
 }
@@ -908,6 +912,10 @@ video {
 
 .fill-neutral-500 {
   fill: #737373;
+}
+
+.fill-neutral-50 {
+  fill: #f9f9f9;
 }
 
 .stroke-neutral-500 {
@@ -1166,6 +1174,10 @@ video {
 
 .active\:fill-neutral-50:active {
   fill: #f9f9f9;
+}
+
+.active\:fill-none:active {
+  fill: none;
 }
 
 .active\:pb-4:active {
